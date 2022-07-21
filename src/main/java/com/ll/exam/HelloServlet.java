@@ -8,9 +8,11 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 
+
+
 import java.io.IOException;
 
-@WebServlet("/hello")//어노테이션 이 주소 입력이 될 때마다 아래가 실행됨
+@WebServlet("/hello") //어노테이션 이 주소 입력이 될 때마다 아래가 실행됨
 public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
